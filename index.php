@@ -29,3 +29,8 @@ $data = $tree->buildTree($allData);
     <?php endforeach; ?>
 </form>
 
+<br/>
+DB print_r:
+<pre>
+    <?php print_r($allData) ?>
+</pre>
